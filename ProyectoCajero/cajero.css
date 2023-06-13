@@ -1,0 +1,146 @@
+body
+{
+    background-image: url(mainPageBackground.png) ;
+    font-size: large;
+}
+
+/* estilo de logo y titulo*/
+header {
+    display: inline;
+    width: 80px;
+    height:100%;
+    padding: 0;
+    margin: 10px 0;
+}
+
+header img {
+    height: 50px;
+}
+
+header h2 {
+    font-weight: normal;
+    margin: 0;
+}
+/*estilo del cajero*/
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    margin: 15px 0;
+    border: 20px;
+    background-color:  #acc4ce7f;
+    height: 500px;
+    max-width: 600px; 
+    width: 100%;
+    border-radius: 20px;
+}
+
+#saludoUsuario{
+    position: absolute;
+    top: 30%;
+    left: 33%;
+}
+
+/*estilo de los botones*/
+
+main button {
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    
+}
+
+main button:hover {
+    background-color: antiquewhite;
+}
+
+#consulta {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    width: 40px;
+    height: 30px;
+    background-color: #d7150799;
+}
+
+#retiro {
+    position: absolute;
+    bottom: 200px;
+    right: 10px;
+    width: 40px;
+    height: 30px;
+    background-color: #d7150799;
+}
+
+#deposito {
+    position: absolute;
+    bottom: 125px;
+    right: 10px;
+    width: 40px;
+    height: 30px; 
+    background-color: #d7150799;
+}
+
+#cerrarSesion {
+    position: absolute;
+    bottom: 50px;
+    right: 10px; 
+    width: 40px;
+    height: 30px; 
+    background-color: #d7150799;
+    }
+
+    #consulta:hover,
+    #retiro:hover,
+    #deposito:hover,
+    #cerrarSesion:hover{
+    background-color:#ec7134d3 ;  
+    }
+/*estilo del texto*/
+    .texto-adicional {
+        position: absolute;
+        bottom: 50px;
+        left: 60px; }
+
+
+        .texto-adicional-retiro {
+            position: absolute;
+            right: 60px;
+            bottom: 205px;
+        }
+        .texto-adicional-deposito {
+            position: absolute;
+            right: 60px;
+            bottom: 130px;
+        } .texto-adicional-cerrarsesion {
+            position: absolute;
+            right: 60px;
+            bottom: 55px;
+        }
+        .texto{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+/*Estilo de input y boton de retiro*/
+    #retiroDeposito{
+        display: flex;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        flex-direction: column;
+    }
+
+    #montoTransaccion
+    {
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        border: 0;
+        margin: 10px;
+        font-size: x-large;
+        text-align: center;
+    }

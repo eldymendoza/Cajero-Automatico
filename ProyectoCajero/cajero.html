@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="cajero.js"></script>
+    <link rel="stylesheet" href="cajero.css">
+
+</head>
+<body>
+    <header>
+        <img src="bank-logo.png" alt="bank-logo">
+    <h2>Portal Transacciones</h2>
+</header>
+<main>
+    <div class="boton-consulta"><button type="button" id="consulta"></button> <span class="texto-adicional">Consultar saldo</span></div>
+    <div class="boton-retiro"> <button type="button" id="retiro"></button> <span class="texto-adicional-retiro">Retirar</span></div>
+    <div class="boton-deposito"></div><button type="button" id="deposito"></button> <span class="texto-adicional-deposito">Ingresar dinero</span></div>
+    <div class="boton-cerrarsesion"> <button type="button" id="cerrarSesion"></button><span class="texto-adicional-cerrarsesion">Salida segura</span></div>
+
+    <h1 id="saludoUsuario">Bienvenido!</h1>
+
+    <div class="texto"><p id="textoCambiable"></p>
+    <p id="textoCambiable2"></p></div>
+    <form id="retiroDeposito">
+        <input type="text" id="montoTransaccion" required>
+        <button type="submit" id="confirmar">Confirmar</button>
+    </form>
+    
+</main>
+</body>
+</html>

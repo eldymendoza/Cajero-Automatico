@@ -1,0 +1,83 @@
+body {
+    background-image: url("mainPageBackground.png");
+}
+/* inicio de estilo diseño login*/
+#formlogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    max-width: 500px; 
+    width: 100%; 
+    background-color: #acc4ce7f;
+    border-radius: 20px;
+    flex-direction: column;
+}
+/* estilo de imagen */
+#formlogin img {
+    
+    width: 90%; 
+    height: auto; 
+    margin: 25px;
+}
+/* Estilo de formulario login*/
+#Login label {
+    display: flex;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+#Login input {
+    width: 85%;
+    display: flex;
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e7e7e7e4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Login input:hover {
+    background-color: #ffffff;
+}
+
+#button1 {
+    display: flex;
+    position: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #98b8ed;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#button1:hover {
+    background-color: #82a9e8;
+}
+
+/*media Query*/
+@media (max-width: 768px) {
+    #formlogin {
+        height: auto; 
+        max-width: 90%;}
+
+    #formlogin img {
+        width: 100%; 
+        height: auto; 
+        margin: 0; 
+    }
+}
